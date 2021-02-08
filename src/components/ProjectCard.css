@@ -1,0 +1,97 @@
+/* CARD PART */
+
+.projectCard {
+  height: 350px;
+  width: 300px;
+  border: 20px solid white;
+  border-radius: 5px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}
+.projectCard h2 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 200%;
+}
+.projectImg {
+  height: 280px;
+  border-radius: 5px;
+}
+
+/* COCKTAIL PROJECT  */
+.cocktailProject {
+  box-shadow: 0px 3px 7px rgb(44, 34, 2);
+  margin: 20px;
+  height: 390px;
+  width: 340px;
+  border-radius: 5px;
+  transform: rotate(5deg);
+}
+.cocktailThumbstack {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  top: -40px;
+  right: 40%;
+  z-index: 100;
+}
+.projectImg:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+/* FROG PROJECT */
+
+.frogProject {
+  box-shadow: -2px 2px 7px rgb(44, 34, 2);
+  margin: 20px;
+  height: 390px;
+  width: 340px;
+  border-radius: 5px;
+  transform: rotate(-5deg);
+}
+.frogThumbstack {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  top: -40px;
+  right: 40%;
+  z-index: 100;
+}
+/* WAR PROJECT */
+
+.warProject {
+  box-shadow: 2px 2px 7px rgb(44, 34, 2);
+  margin: 20px;
+  height: 390px;
+  width: 340px;
+  border-radius: 5px;
+  transform: rotate(7deg);
+}
+.warThumbstack {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  top: -40px;
+  right: 40%;
+  z-index: 100;
+}
+
+/* CALCULATOR PART */
+.calcProject {
+  box-shadow: -2px 2px 7px rgb(44, 34, 2);
+  margin: 20px;
+  height: 390px;
+  width: 340px;
+  border-radius: 5px;
+  transform: rotate(-8deg);
+}
+.calcThumbstack {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  top: -40px;
+  right: 40%;
+  z-index: 100;
+}

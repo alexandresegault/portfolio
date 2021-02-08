@@ -1,0 +1,40 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.board li {
+  color: rgb(0, 0, 0);
+  font-family: "Just Another Hand", cursive;
+  font-weight: bold;
+  font-size: 150%;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.board ul {
+  background: rgba(255, 255, 255, 0.274);
+  border-radius: 10px;
+}
+.cocktail,
+.froggy,
+.war,
+.calculator {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.froggy,
+.calculator {
+  flex-direction: row-reverse;
+}
+.invisible {
+  visibility: hidden;
+  opacity: 0;
+}
+.visible {
+  visibility: visible;
+  transition: opacity 1s linear;
+  opacity: 1;
+}

@@ -30,8 +30,16 @@
 }
 .langages h2 {
   margin-top: 50px;
+  margin-left: 20px;
 }
-
+.langages ul {
+  margin-top: -10px;
+  margin-left: 60px;
+}
+.langages li {
+  font-size: 140%;
+  letter-spacing: 0.5px;
+}
 li {
   list-style: none;
 }

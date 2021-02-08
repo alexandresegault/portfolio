@@ -34,7 +34,7 @@
   height: 25%;
   position: absolute;
   top: -40px;
-  right: 40%;
+  right: 70%;
   z-index: 100;
 }
 .projectImg:hover {
@@ -56,7 +56,7 @@
   height: 25%;
   position: absolute;
   top: -40px;
-  right: 40%;
+  right: 15%;
   z-index: 100;
 }
 /* WAR PROJECT */
@@ -74,7 +74,7 @@
   height: 25%;
   position: absolute;
   top: -40px;
-  right: 40%;
+  right: 70%;
   z-index: 100;
 }
 
@@ -92,6 +92,6 @@
   height: 25%;
   position: absolute;
   top: -40px;
-  right: 40%;
+  right: 20%;
   z-index: 100;
 }

@@ -31,11 +31,12 @@
 }
 .invisible {
   visibility: hidden;
+
   opacity: 0;
 }
 .visible {
   visibility: visible;
-  transition: opacity 1s linear;
+  transition: opacity 0.5s linear;
   opacity: 1;
 }
 a {

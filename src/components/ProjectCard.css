@@ -1,3 +1,26 @@
+/* Shaking Animation */
+@keyframes shaky {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(-6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(-2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(1.2deg);
+  }
+}
 /* CARD PART */
 
 .projectCard {
@@ -10,6 +33,10 @@
   flex-direction: column;
   position: relative;
   text-align: center;
+  box-shadow: 0px 2px 7px rgb(44, 34, 2);
+}
+.projectCard:hover {
+  animation: shaky 0.8s ease-in;
 }
 .projectCard h2 {
   font-family: "Gochi Hand", cursive;
@@ -22,19 +49,17 @@
 
 /* COCKTAIL PROJECT  */
 .cocktailProject {
-  box-shadow: 0px 3px 7px rgb(44, 34, 2);
   margin: 20px;
   height: 390px;
   width: 340px;
   border-radius: 5px;
-  transform: rotate(5deg);
 }
 .cocktailThumbstack {
   width: 25%;
   height: 25%;
   position: absolute;
   top: -40px;
-  right: 70%;
+  right: 42%;
   z-index: 100;
 }
 .projectImg:hover {
@@ -44,54 +69,49 @@
 /* FROG PROJECT */
 
 .frogProject {
-  box-shadow: -2px 2px 7px rgb(44, 34, 2);
   margin: 20px;
   height: 390px;
   width: 340px;
   border-radius: 5px;
-  transform: rotate(-5deg);
 }
+
 .frogThumbstack {
   width: 25%;
   height: 25%;
   position: absolute;
   top: -40px;
-  right: 15%;
+  right: 42%;
   z-index: 100;
 }
 /* WAR PROJECT */
 
 .warProject {
-  box-shadow: 2px 2px 7px rgb(44, 34, 2);
   margin: 20px;
   height: 390px;
   width: 340px;
   border-radius: 5px;
-  transform: rotate(7deg);
 }
 .warThumbstack {
   width: 25%;
   height: 25%;
   position: absolute;
   top: -40px;
-  right: 70%;
+  right: 42%;
   z-index: 100;
 }
 
 /* CALCULATOR PART */
 .calcProject {
-  box-shadow: -2px 2px 7px rgb(44, 34, 2);
   margin: 20px;
   height: 390px;
   width: 340px;
   border-radius: 5px;
-  transform: rotate(-8deg);
 }
 .calcThumbstack {
   width: 25%;
   height: 25%;
   position: absolute;
   top: -40px;
-  right: 20%;
+  right: 42%;
   z-index: 100;
 }
